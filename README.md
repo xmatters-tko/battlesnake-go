@@ -1,4 +1,4 @@
-## battlesnake-go
+## xm-battlesnake-go
 
 A simple [BattleSnake AI](http://battlesnake.io) written in Go.
 
@@ -13,19 +13,19 @@ To get started, you'll need:
 
 ### Running the AI locally
 
-1) [Fork this repo](https://github.com/sendwithus/battlesnake-go/fork).
+1) [Fork this repo](https://github.com/xmatters-tko/xm-battlesnake-go/fork).
 
 2) Clone repo to your development environment:
 ```
-git clone git@github.com:USERNAME/battlesnake-go.git $GOPATH/github.com/USERNAME/battlesnake-go
-cd $GOPATH/github.com/USERNAME/battlesnake-go
+git clone git@github.com:USERNAME/xm-battlesnake-go.git $GOPATH/github.com/USERNAME/xm-battlesnake-go
+cd $GOPATH/github.com/USERNAME/xm-battlesnake-go
 ```
 
-3) Compile the battlesnake-go server.
+3) Compile the xm-battlesnake-go server.
 ```
 go build
 ```
-This will create a `battlesnake-go` executable.
+This will create a `xm-battlesnake-go` executable.
 
 4) Set your snake ID as an environment variable.
 ```
@@ -35,7 +35,7 @@ This will allow your snake to locate itself during the game.
 
 5) Run the server.
 ```
-./battlesnake-go
+./xm-battlesnake-go
 ```
 
 6) Test the client in your browser: [http://127.0.0.1:9000](http://127.0.0.1:9000)
@@ -69,6 +69,3 @@ Or go directly via http://APP_NAME.herokuapp.com
 heroku logs --tail
 ```
 
-### Questions?
-
-[Email](mailto:battlesnake@sendwithus.com), [Twitter](http://twitter.com/send_with_us)
